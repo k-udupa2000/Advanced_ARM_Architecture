@@ -13,8 +13,8 @@ __main  FUNCTION
 	
 	MOV R0,#0x20000000
 
-	ADD R1,R0, #0x00000004  
-	ADD R2, R1, #0x00000004
+	ADD R1,R0, #0x7  
+	ADD R2, R1, #0x7
 
 
 	MOV R4, #0xf ; Number 1

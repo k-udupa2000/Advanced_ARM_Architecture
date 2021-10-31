@@ -13,7 +13,7 @@ __main FUNCTION
 		MOV R2, #00 ; first element.
 
 loop    CMP R7, #00
-		BLE finish        ; Jump if less than or equal to
+		BLE finish        
 
 		MOV R3, R2
 		ADD R2, R2, R1
@@ -25,7 +25,7 @@ loop    CMP R7, #00
 		MOV R2, R5
 		MOV R1, R3
 		SUB R7, #01
-		B loop          ; Jump back to loop
+		B loop       
 
 finish
 	ENDFUNC
